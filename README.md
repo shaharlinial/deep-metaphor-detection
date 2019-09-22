@@ -32,10 +32,10 @@ This project is made with PyTorch.
 deep-metaphor-detection
 │   README.md
 │   model.py
-|    run.py    
-|    requirements.txt
-|    util.py
-|    seq2seq_with_attention_model.py
+|   run.py    
+|   requirements.txt
+|   util.py
+|   seq2seq_with_attention_model.py
 │
 └───glove
 │   │   glove840B300d.txt    
