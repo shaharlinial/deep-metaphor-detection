@@ -15,17 +15,17 @@ def load_data_set(name, vocabulary_mode=1):
     vocabulary = []
     # default is VUA
     # path for training and validation sets
-    train_path = "../datasets/VUAsequence/VUA_seq_formatted_train.csv"
-    validation_path = "../datasets/VUAsequence/VUA_seq_formatted_val.csv"
-    test_path = "../datasets/VUAsequence/VUA_seq_formatted_test.csv"
+    train_path = "datasets/VUAsequence/VUA_seq_formatted_train.csv"
+    validation_path = "datasets/VUAsequence/VUA_seq_formatted_val.csv"
+    test_path = "datasets/VUAsequence/VUA_seq_formatted_test.csv"
     # column index for sentence,label in csv
     sentence_index = 2
     label_index = 3
 
     if name == "vua":
-        train_path = "../datasets/VUAsequence/VUA_seq_formatted_train.csv"
-        validation_path = "../datasets/VUAsequence/VUA_seq_formatted_val.csv"
-        test_path = "../datasets/VUAsequence/VUA_seq_formatted_test.csv"
+        train_path = "datasets/VUAsequence/VUA_seq_formatted_train.csv"
+        validation_path = "datasets/VUAsequence/VUA_seq_formatted_val.csv"
+        test_path = "datasets/VUAsequence/VUA_seq_formatted_test.csv"
 
         sentence_index = 2
         label_index = 3
