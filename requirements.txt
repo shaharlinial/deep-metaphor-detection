@@ -1,0 +1,7 @@
+# Progress bar for data preprocessing
+tqdm
+# Efficient numerical operations
+numpy
+# Use some tools for batching in util.py
+allennlp==0.3.0
+torch
