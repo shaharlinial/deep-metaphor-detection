@@ -74,7 +74,7 @@ def generate_w2idx_idx2w(vocabulary):
 def get_embedding_matrix(word2idx, idx2word, normalization=False):
     # Load the GloVe vectors into a dictionary, keeping only words in vocabulary
     embedding_dim = 300
-    glove_path = "../glove/glove840B300d.txt"
+    glove_path = "glove/glove840B300d.txt"
     glove_vectors = {}
     with open(glove_path) as glove_file:
         for line in tqdm(glove_file, total=sum(1 for line in open(glove_path))):
