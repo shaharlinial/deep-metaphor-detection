@@ -1,5 +1,5 @@
 # 2019B - Final Project in Introuction to NLP @OpenU
-### This is the work of `@ira-vitenzon` and `@shaharlinial`
+### This is the work of `@ira-vitenzon`(אירה ויטנזון) and `@shaharlinial` (שחר ליניאל)
 
 We aim to create a sequence to sequence model that can detect metaphors
 (in the english language, but can be ported out to any language given a
