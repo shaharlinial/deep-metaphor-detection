@@ -1,10 +1,11 @@
 # 2019B - Final Project in Introuction to NLP @OpenU
 ### This is the work of `@ira-vitenzon`(אירה ויטנזון) and `@shaharlinial` (שחר ליניאל)
 
-We aim to create a sequence to sequence model that can detect metaphors
-(in the english language, but can be ported out to any language given a
-large dataset of metaphores)
+This project aims to create a sequence-to-sequence model that can detect metaphors in the English language, and potentially in other languages as well, given a large dataset of metaphors. 
 
+The model is implemented using deep learning techniques, specifically Long Short-Term Memory (LSTM) networks, and is built using the PyTorch deep learning library. The ability to detect metaphors is a crucial task in natural language processing, as it can be used to improve the accuracy and relevance of a wide range of applications, such as sentiment analysis, text summarization, and language translation.
+
+The model will be trained on a large dataset of annotated metaphors and will be evaluated using standard evaluation metrics
 This project is made with PyTorch.
 
 
